@@ -3,7 +3,7 @@ import React from 'react';
 interface CalculatorCardProps {
   title: string;
   children: React.ReactNode; // This should be React.ReactNode
-  resultDisplay: React.ReactNode;
+  resultDisplay?: React.ReactNode;
   calculationFormula: React.ReactNode;
 }
 
